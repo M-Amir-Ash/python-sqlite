@@ -1,3 +1,5 @@
+# python-sqlite
+
 Proyek ini adalah aplikasi web sederhana yang dibuat dengan Flask dan SQLite.
 
 ## Fitur
@@ -21,35 +23,4 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek ini s
 1. **Clone repository** (jika diperlukan):
    ```bash
    git clone <repository-url>
-   cd project_folder
-   ```
-
-2. **Buat virtual environment**:
-   ```bash
-   python3 -m venv .venv
-   ```
-
-3. **Aktifkan virtual environment**:
-   ```bash
-   source .venv/bin/activate
-   ```
-
-4. **Instal dependensi**:
-   ```bash
-   pip install flask flask_sqlalchemy
-   ```
-
-5. **Jalankan aplikasi**:
-   ```bash
-   python app.py
-   ```
-
-6. **Akses aplikasi**:
-   Buka browser dan akses:
-   ```
-   http://127.0.0.1:5000
-   ```
-
-## Struktur Proyek
-- `app.py`: File utama aplikasi yang berisi logika backend Flask.
-- `templates/`: Folder untuk file HTML yang digunakan dalam aplikasi.
+   cd python-sqlite
